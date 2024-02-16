@@ -6,7 +6,7 @@
 
 .hero {
   text-align: center;
-  background-color: #f9f7fe;
+  /* background-color: #f9f7fe; */
   padding: 160px 10px;
   max-width: 100%;
 }
@@ -95,6 +95,28 @@
   border: 1px solid #6c63ff;
 }
 
+.color-change-2x {
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #f9f7fe;
+  }
+  100% {
+    background: #cccbea;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #f9f7fe;
+  }
+  100% {
+    background: #cccbea;
+  }
+}
+
 @media (max-width: 900px) {
   .project-container {
     display: block;
@@ -120,4 +142,12 @@
   .btn-project {
     margin-bottom: 30px;
   }
+  .footer-icon {
+    width: 16px;
+    height: 16px;
+  }
 }
+/* 
+footer {
+  margin-bottom: 20px;
+} */
