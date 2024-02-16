@@ -1,42 +1,123 @@
+:root {
+  --button-color: #6c63ff;
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+
 .hero {
   text-align: center;
   background-color: #f9f7fe;
   padding: 160px 10px;
+  max-width: 100%;
 }
 
 .hero p {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
 }
 
 .hero h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: normal;
   font-size: 24px;
   line-height: 48px;
 }
 
 .heading1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--primary-font);
   font-weight: bold;
   font-size: 96px;
 }
 
 .btn-styling {
-  background-color: #6c63ff;
+  background-color: var(--button-color);
   color: white;
   padding: 18px 30px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: medium;
   font-size: 18px;
   border-radius: 4px;
 }
 
 .btn-styling:hover {
-  background-color: #6c63ff;
+  background-color: var(--button-color);
   color: black;
   text-decoration: underline;
+}
+
+.header-para {
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+}
+
+.project-container {
+  margin: 100px 60px;
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+.heading2 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 64px;
+  margin-top: 60px 20px;
+}
+
+.content-para {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #272142;
+  opacity: 0.7;
+}
+
+.btn-project {
+  border: 1px solid #6c63ff;
+  padding: 18px 30px;
+  color: #6c63ff;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.btn-project:hover {
+  border: 1px solid #6c63ff;
+}
+
+@media (max-width: 900px) {
+  .project-container {
+    display: block;
+    text-align: center;
+    margin: 5px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .heading1 {
+    font-size: 47px;
+  }
+
+  .hero p {
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  .heading2 {
+    font-size: 44px;
+  }
+  .btn-project {
+    margin-bottom: 30px;
+  }
 }
