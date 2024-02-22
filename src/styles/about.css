@@ -45,7 +45,7 @@
   line-height: 30px;
 }
 
-.content a {
+.content .view-project {
   font-family: var(--secondary-font);
   font-size: 18px;
   font-weight: 500;

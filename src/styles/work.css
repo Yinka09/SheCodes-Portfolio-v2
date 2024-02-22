@@ -1,0 +1,16 @@
+:root {
+  --button-color: #6c63ff;
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+
+.contact-para {
+  font-size: 14px;
+  font-family: var(--secondary-font);
+}
+
+.contact-container {
+  margin-top: 60px;
+  background-color: #f9f7fe;
+  padding: 50px;
+}
