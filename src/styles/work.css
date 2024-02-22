@@ -7,10 +7,35 @@
 .contact-para {
   font-size: 14px;
   font-family: var(--secondary-font);
+
+  color: #272142;
 }
 
 .contact-container {
   margin-top: 60px;
   background-color: #f9f7fe;
   padding: 50px;
+}
+
+nav div a,
+nav li {
+  font-family: var(--secondary-font);
+  color: #272142;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+.contact-para:hover {
+  color: var(--button-color);
+  text-decoration: none;
+}
+
+/* nav li.active a {
+  color: var(--button-color);
+} */
+
+.logo {
+  max-height: 30px;
 }
