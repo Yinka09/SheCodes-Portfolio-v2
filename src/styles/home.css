@@ -6,7 +6,7 @@
 
 .hero {
   text-align: center;
-  /* background-color: #f9f7fe; */
+  background-color: #f9f7fe;
   padding: 160px 10px;
   max-width: 100%;
 }
@@ -35,10 +35,11 @@
 .btn-styling {
   background-color: var(--button-color);
   color: white;
-  padding: 18px 30px;
+  padding: 15px 30px;
   font-family: var(--secondary-font);
   font-weight: medium;
   font-size: 18px;
+  line-height: 27px;
   border-radius: 4px;
 }
 

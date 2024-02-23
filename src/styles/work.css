@@ -17,6 +17,10 @@
   padding: 50px;
 }
 
+nav {
+  background-color: #f9f7fe;
+}
+
 nav div a,
 nav li {
   font-family: var(--secondary-font);
@@ -38,4 +42,61 @@ nav a:hover,
 
 .logo {
   max-height: 30px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: #f9f7fe;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer h4 {
+  font-size: 48px;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  line-height: 63px;
+}
+
+.contact-box p {
+  margin: 0;
+  /* color: #6c757d;
+  opacity: 0.7; */
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.email-link {
+  color: black;
+  font-size: 24px;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer .social-links a {
+  background-color: #f9f7fe;
+  padding: 10px 14px;
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 18px;
+
+  border-radius: 50%;
+  transition: all 100ms ease-in-out 0s;
+}
+
+footer .social-links a:hover {
+  background-color: #6c63ff;
+  color: white;
+}
+
+a:hover i {
+  color: white;
 }
