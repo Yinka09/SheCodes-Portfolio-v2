@@ -7,13 +7,20 @@
 .contact-para {
   font-size: 14px;
   font-family: var(--secondary-font);
+  text-decoration: none;
+  color: #6c63ff;
+}
 
-  color: #272142;
+.contact-para a:hover {
+  text-decoration: underline;
 }
 
 .contact-container {
   margin-top: 60px;
+  font-family: var(--secondary-font);
   background-color: #f9f7fe;
+  border-radius: 10px;
+
   padding: 50px;
 }
 
@@ -36,9 +43,9 @@ nav a:hover,
   text-decoration: none;
 }
 
-/* nav li.active a {
+nav li.active a {
   color: var(--button-color);
-} */
+}
 
 .logo {
   max-height: 30px;
@@ -99,4 +106,12 @@ footer .social-links a:hover {
 
 a:hover i {
   color: white;
+}
+
+.last-para {
+  font-family: var(--secondary-font);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 27px;
+  text-decoration: none;
 }
